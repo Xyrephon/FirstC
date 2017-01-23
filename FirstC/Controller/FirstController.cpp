@@ -1,16 +1,17 @@
 //
-//  FirstRunner.cpp
+//  FirstController.cpp
 //  FirstC
 //
 //  Created by Tucker, Jonah on 1/23/17.
 //  Copyright © 2017 Tucker, Jonah. All rights reserved.
 //
 
+#include <iostream>
 #include "FirstController.h"
 
-int main()
+using namespace std;
+
+void FirstController :: start()
 {
-    FirstController * app = new FirstController();
-    app->start();
-    return 0;
+    cout << "Hello World!" << endl;
 }
