@@ -60,11 +60,19 @@
 		938DCCDA1E365B0000F1E5C7 /* FirstC */ = {
 			isa = PBXGroup;
 			children = (
+				93F9F4391E38FDD000BD1B82 /* Controller */,
+			);
+			path = FirstC;
+			sourceTree = "<group>";
+		};
+		93F9F4391E38FDD000BD1B82 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				938DCCE21E365FC500F1E5C7 /* FirstRunner.cpp */,
 				938DCCE41E3661B600F1E5C7 /* FirstController.cpp */,
 				938DCCE61E36645B00F1E5C7 /* FirstController.h */,
 			);
-			path = FirstC;
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +260,7 @@
 				938DCCE11E365B0000F1E5C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
